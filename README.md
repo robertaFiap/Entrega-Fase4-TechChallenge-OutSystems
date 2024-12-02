@@ -7,7 +7,7 @@ Este projeto tem a finalidade de criar o Frontend de eventos(crud) e integra-lo 
 
 ## 🚀 Começando
 
-Para a execução deste projeto é necessário copiar os arquivos de Front-End e BackEnd para a maquina local no Service Studio (OutSystems).
+Para a execução deste projeto é necessário copiar os arquivos de Front-End e BackEnd para a maquina local no Service Studio (OutSystems). Conecte-se com seu usuário e senha do OutSystems.
 
 
 ## 📋 Pré-requisitos
