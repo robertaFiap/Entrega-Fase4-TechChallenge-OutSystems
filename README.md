@@ -2,12 +2,12 @@
 
 # Integração Frontend X Backend
 
-Este projeto tem a finalidade de criar o Frontend de uma biblioteca(crud) e integra-lo com o backend em plataforma Low-Code.
+Este projeto tem a finalidade de criar o Frontend de eventos(crud) e integra-lo com o backend em plataforma Low-Code.
 
 
 ## 🚀 Começando
 
-Para a execução deste projeto é necessário copiar os arquivos de Front-End e BackEnd para a maquina local no Service Studio.
+Para a execução deste projeto é necessário copiar os arquivos de Front-End e BackEnd para a maquina local no Service Studio (OutSystems).
 
 
 ## 📋 Pré-requisitos
@@ -25,41 +25,38 @@ Após os softwares instalados e baixado o projeto localmente, seguir os seguinte
 ```
 * Backend
 
- Este projeto do backend encontra-se em https://github.com/robertaFiap/Entrega-Fase3-TechChallenge-Backend
-  1) Abrir no VSCode
-  2) Para subir a aplicação no terminal digite: npm run dev
- 
+  1) Clicar em Publish para compilar o projeto;
+  2) Procure pela aba Logic / Rest / V1, clique com o botão direito sobre a pasta V1 e selecione a opção Open Documentation;
+  3) Será direcionado para uma página em seu navegador, onde mostrará os endpoints(GET, PUT, POST e DELETE) para testar a aplicação via Postman.
+   
 
 * Frontend
 
-  1) Abrir no VSCode
-  2) Abrir o terminal e seguir para as instalações:
-      2.1) npm install
-      2.2) npm install react-router-dom
-      2.3) npm install react-bootstrap bootstrap
-  3) Para subir a aplicação no terminal digite: npm run dev
-  4) Abrir a pagina localhost indicada.
+  1) Clicar em Open in Browser;
+  2) Será direcionado para uma página de login, inclua seu usuário e senha utilizado no OutSystems; 
+  3) Navegue pelo projeto, podendo ver a lista de eventos, alterar, incluir e deletar.
+  
 
 ```
 
 ## ⚙️ Executando os testes
 
-Na página da biblioteca, poderá desfrutar das seguintes opções:
+Na página de eventos, poderá desfrutar das seguintes opções:
 
-Lista de livros;
-Alterar o titulo, autor ou editora;
-Deletar o livro;
-Inserir um novo livro
+Lista de eventos;
+Alterar o evento (data, local, valor e a descrição do evento);
+Deletar o evento;
+Inserir um novo evento
 
 ### 🔩 Analise os testes de ponta a ponta
 
 Avalie a navegação das páginas, bem como a funcionalidado do crud.
 
 ```
-Verifique a lista de livros trouxe todos os livros cadastrados no banco de dados;
-Altere qualquer campo(titulo, autor ou editora) e valide se reflete corretamente na aplicação;
-Delete um livro e verifique se a lista de lista será atualizada retirando o livro;
-Insera um novo livro preenchendo os campos(titulo, autor ou editora) e valide se p novo livro será refletido na aplicação
+Verifique a lista de eventos trouxe todos os eventos cadastrados no banco de dados;
+Altere qualquer campo(evento, data, localização e valor) e valide se reflete corretamente na aplicação;
+Delete um evento e verifique se a lista será atualizada retirando o evento;
+Insera um novo evento preenchendo os campos(evento, data, localização e valor) e valide se o novo evento será refletido na aplicação
 ```
 
 ## 🛠️ Construído com
